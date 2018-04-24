@@ -85,6 +85,7 @@ typedef NS_ENUM(NSInteger,YYHEncryptType){
     _backStr = [_afterStr aes256_decrypt:KeyPassWord];
     NSLog(@"%@",_afterStr);
     
+    
 }
 
 // 2.
